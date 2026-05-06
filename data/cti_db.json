@@ -1,0 +1,47 @@
+{
+  "blacklisted_domains": [
+    "malware-site.bad",
+    "phishing-test.evil",
+    "ransomware.test",
+    "c2-beacon.bad",
+    "trojan-drop.xyz"
+  ],
+  "blacklisted_ips": [
+    "185.220.101.47",
+    "45.33.32.156",
+    "192.42.116.16",
+    "198.96.155.3",
+    "199.87.154.255"
+  ],
+  "phishing_patterns": [
+    "login.*paypal",
+    "signin.*amazon",
+    "verify.*bank",
+    "account.*suspended",
+    "update.*password.*now",
+    "click.*here.*claim",
+    "you.*won.*prize"
+  ],
+  "malicious_sha256": [
+    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "aec070645fe53ee3b3763059376134f058cc337247c978add178b6ccdfb0019f",
+    "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a8"
+  ],
+  "known_safe_domains": [
+    "oracle.com",
+    "wikipedia.org",
+    "python.org",
+    "github.com",
+    "google.com",
+    "cloudflare.com"
+  ],
+  "risk_scores": {
+    "oracle.com": 2,
+    "wikipedia.org": 1,
+    "python.org": 3,
+    "github.com": 5,
+    "google.com": 2,
+    "malware-site.bad": 98,
+    "phishing-test.evil": 95
+  }
+}
